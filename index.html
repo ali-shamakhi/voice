@@ -1,0 +1,11 @@
+<html>
+	<body>
+		{{% for file in site.static_files %}}
+			{{% if file.isVoice %}}
+				<p>{{file.path}}</p>
+			{{% endif %}}
+		{{% endfor %}}
+		<script src="/js/jquery.min.js"></script>
+		{% include open-embed.html %}
+	</body>
+</html>

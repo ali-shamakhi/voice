@@ -1,1 +1,8 @@
 theme: jekyll-theme-leap-day
+
+defaults:
+  scope:
+    path: "assets/voice"
+  values:
+    isVoice: true
+
