@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: UT Voices
+title: UT Voice
 email: ali.shamakhi.97@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A place for listing lecture voices, and listening to them.
+  A place for listing lecture voices, and listening to them. Feel free to contribute.
 baseurl: "/voice" # the subpath of your site, e.g. /blog
 url: "https://ali-shamakhi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ali-shamakhi
+github_username:  ali-shamakhi/voice
 
 # Build settings
 markdown: kramdown
@@ -28,7 +28,7 @@ plugins:
   - jekyll-feed
 
 keep_files:
-  - assets/voice
+  - assets/voice/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
