@@ -80,7 +80,7 @@ function mp3_embed() {
                 if(str[1].indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
                 if(str[1].indexOf('loop=1') !== -1) var loop=1; else var loop=0;
                 if(str[1].indexOf('controls=0') !== -1) var controls=0; else var controls=1;
-                var newInnerHTML = '<audio';
+                var newInnerHTML = '<audio style="width: 100%;"';
                 if(autoplay==1) newInnerHTML += ' autoplay';
                 if(loop==1) newInnerHTML += ' loop';
                 if(controls==1) newInnerHTML += ' controls';
