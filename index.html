@@ -7,7 +7,7 @@ layout: home
 		<col width="10%">
 		<tr><th>IFM 97</th><th>Download</th></tr>
 		{% for file in site.static_files %}
-			{% if file.path contains 'assets/voice/' %}
+			{% if file.path contains 'assets/voice/IFM97' %}
 				<tr><td><span>{{ file.name }}</span><p>/voice{{ file.path }}</p></td>
 					<td><a href="/voice{{ file.path }}"><img src="assets/images/download.png"></img></a></td></tr>
 			{% endif %}
