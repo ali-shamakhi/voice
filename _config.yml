@@ -39,3 +39,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - backlog/
+  - tools/
+  
