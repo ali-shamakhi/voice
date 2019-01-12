@@ -11,11 +11,27 @@ voice_path: assets/voice/IFM97a
 		<tr><th>Voice</th><th>Download</th></tr>
 		{% for file in site.static_files %}
 			{% if file.path contains page.voice_path and file.extname == '.mp3' %}
-				<tr><td><span>{{ file.name }}</span><p>/voice{{ file.path }}</p></td>
-					<td><a href="{{ site.baseurl }}{{ file.path }}"><img src="{{ site.baseurl }}/assets/images/download.png"></img></a></td></tr>
+				<tr><td><span>{{ file.name }}</span><p><audio controls style="width: 100%"><source src="{{ site.baseurl }}{{ file.path }}" type="audio/mp3">Your browser does not support the audio element.</audio></p></td>
+					<td><a href="{{ site.baseurl }}{{ file.path }}"><img src="{{ site.baseurl }}/assets/images/download.png"></img></a></td>
+				</tr>
+			{% endif %}
+			{% if file.path contains page.voice_path and file.extname == '.m4a' %}
+				<tr><td><span>{{ file.name }}</span><p><audio controls style="width: 100%"><source src="{{ site.baseurl }}{{ file.path }}" type="audio/mp4">Your browser does not support the audio element.</audio></p></td>
+					<td><a href="{{ site.baseurl }}{{ file.path }}"><img src="{{ site.baseurl }}/assets/images/download.png"></img></a></td>
+				</tr>
+			{% endif %}
+			{% if file.path contains page.voice_path and file.extname == '.aac' %}
+				<tr><td><span>{{ file.name }}</span><p><audio controls style="width: 100%"><source src="{{ site.baseurl }}{{ file.path }}" type="audio/mp4">Your browser does not support the audio element.</audio></p></td>
+					<td><a href="{{ site.baseurl }}{{ file.path }}"><img src="{{ site.baseurl }}/assets/images/download.png"></img></a></td>
+				</tr>
+			{% endif %}
+			{% if file.path contains page.voice_path and file.extname == '.wav' %}
+				<tr><td><span>{{ file.name }}</span><p><audio controls style="width: 100%"><source src="{{ site.baseurl }}{{ file.path }}" type="audio/wav">Your browser does not support the audio element.</audio></p></td>
+					<td><a href="{{ site.baseurl }}{{ file.path }}"><img src="{{ site.baseurl }}/assets/images/download.png"></img></a></td>
+				</tr>
 			{% endif %}
 		{% endfor %}
 	</table>
-	<script src="/js/jquery.min.js"></script>
-	{% include open-embed.html %}
+	<!-- <script src="/js/jquery.min.js"></script>
+	{% include open-embed.html %} -->
 </body>
