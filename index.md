@@ -5,6 +5,8 @@ title: Courses
 
 + 97b
 
+	- [Advanced Topics on Formal Methods - F. Ghassemi, R. Khosravi]({{ site.baseurl }}/AFM97b)
+
 	- [Software Synthesis - H. Hojjat, F. Faghih]({{ site.baseurl }}/SS97b)
 
 <br>
