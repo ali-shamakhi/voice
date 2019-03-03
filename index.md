@@ -7,6 +7,8 @@ title: Courses
 
 	- [Advanced Topics on Formal Methods - F. Ghassemi, R. Khosravi]({{ site.baseurl }}/AFM97B)
 
+	- [Software Testing - F. Faghih]({{ site.baseurl }}/ST97B)
+
 	- [Software Synthesis - H. Hojjat, F. Faghih]({{ site.baseurl }}/SS97B)
 
 <br>

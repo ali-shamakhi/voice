@@ -21,6 +21,7 @@ description: |-
 baseurl: "/voice" # the subpath of your site, e.g. /blog
 header_pages:
   - AFM97B.html
+  - ST97B.html
   - SS97B.html
 url: "https://ali-shamakhi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ali-shamakhi
