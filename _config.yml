@@ -20,8 +20,8 @@ description: |-
   <a href="https://github.com/ali-shamakhi/voice">github.com/ali-shamakhi/voice</a>
 baseurl: "/voice" # the subpath of your site, e.g. /blog
 header_pages:
-  - AFM97b.html
-  - SS97b.html
+  - AFM97B.html
+  - SS97B.html
 url: "https://ali-shamakhi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ali-shamakhi
 

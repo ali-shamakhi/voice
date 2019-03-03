@@ -3,16 +3,16 @@ layout: home
 title: Courses
 ---
 
-+ 97b
++ 97B
 
-	- [Advanced Topics on Formal Methods - F. Ghassemi, R. Khosravi]({{ site.baseurl }}/AFM97b)
+	- [Advanced Topics on Formal Methods - F. Ghassemi, R. Khosravi]({{ site.baseurl }}/AFM97B)
 
-	- [Software Synthesis - H. Hojjat, F. Faghih]({{ site.baseurl }}/SS97b)
+	- [Software Synthesis - H. Hojjat, F. Faghih]({{ site.baseurl }}/SS97B)
 
 <br>
 
-+ 97a
++ 97A
 
-	- [Introduction to Formal Methods - H. Hojjat, F. Ghassemi, R. Khosravi]({{ site.baseurl }}/IFM97a)
+	- [Introduction to Formal Methods - H. Hojjat, F. Ghassemi, R. Khosravi]({{ site.baseurl }}/IFM97A)
 
-	- [Distributed Systems - F. Faghih]({{ site.baseurl }}/DS97a)
+	- [Distributed Systems - F. Faghih]({{ site.baseurl }}/DS97A)
