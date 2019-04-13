@@ -2,5 +2,5 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-rec-*.mp3
+rec-*
 backlog/
