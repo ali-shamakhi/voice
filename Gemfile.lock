@@ -276,7 +276,7 @@ GEM
 
 PLATFORMS
   ruby
-  x64-ming32
+  x64-mingw32
 
 DEPENDENCIES
   github-pages
